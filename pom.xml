@@ -8,11 +8,11 @@
 		<version>2.5.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>io.javabrains</groupId>
-	<artifactId>github-auth-template</artifactId>
+	<groupId>io.sowmoussa</groupId>
+	<artifactId>betterreads</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>github-auth-template</name>
-	<description>Demo project for Spring Boot</description>
+	<name>betterreads</name>
+	<description>Track your reading statistics</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -56,6 +56,14 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-cassandra</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
 	</dependencies>
 
